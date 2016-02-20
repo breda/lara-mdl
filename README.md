@@ -17,6 +17,7 @@ Will get you up and running.
 If you want an RTL version of the admin dashboard, two dead simple steps to take:
 
 1. Add `dir="rtl"` attribute to your `<html>` tag.
+
 2.Goto  `resources/assets/sass/admin/main.scss` Sass file  and make sure this line in not commented out.
 
 ```
