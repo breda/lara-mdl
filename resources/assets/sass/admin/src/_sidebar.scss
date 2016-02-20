@@ -1,0 +1,54 @@
+@import "../../../../../public/plugins/Materialize/sass/components/color";
+@import "../../../../../public/plugins/Materialize/sass/components/waves";
+
+.sidenav {
+  width:100%;
+  height:auto;
+
+  li { 
+    display:block;
+    width:100%;
+  }
+
+  a {
+    height: 70px;
+    line-height:70px;
+    font-size: 20px;
+  }
+
+  i {
+    float:right;
+    line-height:70px;
+  }
+
+  ul ul {
+    @extend .sidenav__child;
+  }
+}
+
+.sidenav__child li {
+  @extend .blue, .darken-3;
+
+  a {
+    height: 50px;
+    line-height:50px;
+    font-size: 16px;
+  }
+
+  i {
+    float:right;
+    line-height:50px;
+  }
+}
+
+
+.sidenav__header {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+/* Account card */
+.account-card-image.mdl-card { width: 100%; height: 250px; }
+.account-card-image > .mdl-card__actions { height: 52px; padding: 10px; background: rgba(0, 0, 0, 0.7); }
+.account-card-image__name { color: #fff; font-size: 20px; font-weight: 500; line-height: 35px; }

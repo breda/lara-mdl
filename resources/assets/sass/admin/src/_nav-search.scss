@@ -1,0 +1,49 @@
+@import "../dashboard/mdl-vars";
+
+.nav-search-field {
+    position: fixed;
+    left: $layout-drawer-width;
+    right:0;
+    transform: translateY(-($layout-desktop-header-height * 2 + 5));
+    transition: all .4s cubic-bezier(.4, 0, .2, 1);
+    padding:0 5px !important;
+    z-index:5;
+}
+.nav-search-field.is_active { transform: translateY(0); }
+
+.nav-search-field input {
+    width:100%; height:100%;
+    border:none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    margin: 0;
+    font-size: 25px;
+    padding-left:15px;
+}
+.nav-search-field .fa {
+    position:absolute;
+    font-size: 40px;
+    line-height: $layout-mobile-header-height;
+    top:0; 
+    right: 15px;
+    color:#fff;
+}
+
+// Smaller screens.
+@media screen and (max-width:1024px) {
+    .nav-search-field { 
+        left:0; 
+    }
+
+    .mdl-layout-title { 
+        display:none; 
+    }
+
+    .nav-search-field {
+        transform: translateY(-($layout-mobile-header-height * 2 + 5));
+    }
+
+    .nav-search-field .fa {
+        line-height: $layout-mobile-header-height;
+    }
+}

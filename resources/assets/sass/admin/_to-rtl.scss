@@ -1,0 +1,36 @@
+@import "dashboard/mdl-vars";
+
+// *************************************************************
+// This file only contains changes to make MDI an RTL template.
+// *************************************************************
+
+
+// Main Dashboard
+.mdl-layout--fixed-drawer>.mdl-layout__content { margin-right: $layout-drawer-width; margin-left: 0; }
+.mdl-layout__drawer { right: 0;  transform: translateX($layout-drawer-width + 10); }
+.mdl-layout__drawer-button { right: 0; }
+.mdl-layout--fixed-drawer.is-upgraded:not(.is-small-screen)>.mdl-layout__header { margin-right: $layout-drawer-width; }
+.mdl-layout__header-row { padding: 0 40px 0 15px; }
+@media screen and (max-width:1024px) {
+    .mdl-layout--fixed-drawer>.mdl-layout__content { margin-right: 0; }
+}
+@media screen and (min-width:1025px) {
+    .mdl-layout--fixed-drawer>.mdl-layout__drawer { transform: translateX(0); }
+}
+
+
+// Header
+.header-nav {  margin-left:20px; margin-right: 0; }
+.header-nav a.header-nav-link { float:right; }
+// Header search field
+.nav-search-field { right: $layout-drawer-width; left:0; }
+.nav-search-field input { padding-left:0; padding-right:15px; }
+.nav-search-field .fa { right: 95%; }
+@media screen and (max-width:1024px) {
+    .nav-search-field { right:0; }
+    .nav-search-field .fa { right: 92%; }
+}
+// Sidebar
+.sidenav i { float:left; }
+// Flash
+.flash:after { right:95% !important; }

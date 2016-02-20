@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+// Include Dashboard framework & template.
+@import "dashboard/mdl";
+@import "dashboard/materialize";
+
+// Include custom-made componenets and stuff...
+@import "src/header";
+@import "src/nav-search";
+@import "src/sidebar";
+@import "src/flash";
+
+// Uncomment if you want an RTL Dashboard.
+// ** Make sure this is the last one included. **
+// @import "to-rtl";

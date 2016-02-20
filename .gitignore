@@ -1,0 +1,6 @@
+/vendor
+/node_modules
+/public/storage
+/public/plugins
+.env
+tests/_output/*

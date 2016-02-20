@@ -1,0 +1,27 @@
+.mdl-layout__header-row a { 
+    color:#fff; 
+}
+
+.header-nav {  margin-right:20px; }
+.header-nav a.header-nav-link { 
+    float:left;
+    padding:0 15px;
+    font-size: 20px;
+    cursor:pointer; 
+    transition: background .35s ease;
+    line-height: $layout-desktop-header-height;
+}
+.header-nav a.header-nav-link:hover { background: #1565C0; }
+
+@media screen and (max-width:1024px) {
+    .header-nav a.header-nav-link {
+        line-height: $layout-mobile-header-height;
+    }
+}
+
+
+// Header title
+.mdl-layout-title { 
+    font-size: 25px; 
+    text-transform: uppercase; 
+}

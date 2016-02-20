@@ -1,0 +1,48 @@
+@import "../../../../../public/plugins/Materialize/sass/components/color";
+
+.flash {
+    position:relative;
+    width: 99%;
+    margin:5px auto;
+    padding: 20px;
+    font-size: 19px;
+    border-radius: 3px;
+    @extend .z-depth-1;
+
+    &:after {
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: inherit;
+        position: absolute;
+        font-size: 50px;
+        color: #fff;
+        z-index: 1;
+        top: -3px;
+    }
+}
+
+.flash__title { 
+    font-size: 25px; 
+    display:block; 
+    text-transform: uppercase;
+
+    &.flash__title--underline {
+        margin-bottom:10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #eee;
+    }
+}
+
+// Colors & flavors.
+.flash--warning { color:#fff; @extend .orange, .darken-2; }
+.flash--warning:after { content: "\f12a"; right: 30px; }
+
+.flash--error { color:#fff; @extend .red, .darken-1; }
+.flash--error:after { content: "\f00d"; right: 20px; }
+
+.flash--success { color:#fff; @extend .green }
+.flash--success:after { content: "\f00c"; right: 20px; }
+
+.flash--info { color:#fff; @extend .blue, .darken-1; }
+.flash--info:after { content: "\f129"; right: 20px; }

@@ -1,0 +1,44 @@
+/*
+    ############################
+    ###### Materialize #########
+    ############################
+ */
+
+// Mixins
+// @import "../../../../../public/plugins/Materialize/sass/components/prefixer";
+@import "../../../../../public/plugins/Materialize/sass/components/mixins";
+@import "../../../../../public/plugins/Materialize/sass/components/color";
+
+// Variables;
+@import "materialize-vars";
+
+// Reset
+@import "../../../../../public/plugins/Materialize/sass/components/normalize";
+
+// components
+@import "../../../../../public/plugins/Materialize/sass/components/global";
+// @import "../../../../../public/plugins/Materialize/sass/components/icons-material-design";
+// @import "../../../../../public/plugins/Materialize/sass/components/grid"; // Replaced by mdl's grid.
+@import "../../../../../public/plugins/Materialize/sass/components/navbar";
+// @import "../../../../../public/plugins/Materialize/sass/components/roboto";
+@import "../../../../../public/plugins/Materialize/sass/components/typography";
+@import "../../../../../public/plugins/Materialize/sass/components/cards";
+@import "../../../../../public/plugins/Materialize/sass/components/toast";
+@import "../../../../../public/plugins/Materialize/sass/components/tabs";
+@import "../../../../../public/plugins/Materialize/sass/components/tooltip";
+@import "../../../../../public/plugins/Materialize/sass/components/buttons";
+@import "../../../../../public/plugins/Materialize/sass/components/dropdown";
+@import "../../../../../public/plugins/Materialize/sass/components/waves";
+@import "../../../../../public/plugins/Materialize/sass/components/modal";
+@import "../../../../../public/plugins/Materialize/sass/components/collapsible";
+@import "../../../../../public/plugins/Materialize/sass/components/chips";
+@import "../../../../../public/plugins/Materialize/sass/components/materialbox";
+@import "../../../../../public/plugins/Materialize/sass/components/form";
+// @import "../../../../../public/plugins/Materialize/sass/components/table_of_contents";
+// @import "../../../../../public/plugins/Materialize/sass/components/sideNav";
+@import "../../../../../public/plugins/Materialize/sass/components/preloader";
+@import "../../../../../public/plugins/Materialize/sass/components/slider";
+@import "../../../../../public/plugins/Materialize/sass/components/carousel";
+@import "../../../../../public/plugins/Materialize/sass/components/date_picker/default.scss";
+@import "../../../../../public/plugins/Materialize/sass/components/date_picker/default.date.scss";
+@import "../../../../../public/plugins/Materialize/sass/components/date_picker/default.time.scss";

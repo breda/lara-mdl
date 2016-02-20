@@ -1,0 +1,19 @@
+{
+  "name": "mekkah-scholars",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "animsition": "~3.5.2",
+    "jquery": "~2.1.4",
+    "material-design-lite": "~1.0.4",
+    "Materialize": "materialize#~0.97.5",
+    "chosen": "~1.4.2",
+    "font-awesome": "fontawesome#~4.5.0",
+    "tendina": "~0.11.1"
+  }
+}
