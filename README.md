@@ -10,6 +10,7 @@ $ composer install
 $ [sudo] npm install
 $ bower install
 $ gulp watch
+$ php artisan key:generate
 ```
 
 Will get you up and running.
