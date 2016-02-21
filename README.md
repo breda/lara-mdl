@@ -3,6 +3,7 @@
 
 This is a simple Laravel 5.1 application skeleton, with [MDL](http://www.getmdl.io/templates/dashboard/) (Material Design Lite) admin dashboard, and the awesome [MaterializeCSS](http://materializecss.com/) framework (Essentially, MDL is the template, and MaterializeCSS is the framework to use to build up your components)
 
+
 ## Getting Started...
 Simply running, 
 ```bash
@@ -26,5 +27,7 @@ If you want an RTL version of the admin dashboard, two dead simple steps to take
 ```
 **Note:** Just make sure it's the last one included.
 
-Enjoy :)
+## Screenshots
+![screenshot](https://github.com/akhedrane/lara-mdl/raw/master/screenshot-1.jpg)
 
+Enjoy :)
