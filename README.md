@@ -28,6 +28,7 @@ If you want an RTL version of the admin dashboard, two dead simple steps to take
 **Note:** Just make sure it's the last one included.
 
 ## Screenshots
-![screenshot](https://github.com/akhedrane/lara-mdl/raw/master/screenshot-1.jpg)
+Since you have the awesome MaterializeCSS ready, I didn't bother creating widgets and examples.  
+Here is what the dashboard looks like. As simple as it can be. Enjoy.
 
-Enjoy :)
+![screenshot](https://github.com/breda/lara-mdl/raw/master/screenshot-1.jpg)
